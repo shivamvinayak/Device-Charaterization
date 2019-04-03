@@ -1,3 +1,3 @@
-# CC2420 radio characterization
+#CC2420 radio characterization
 
 the antenna connectors of different pairs of TelosB motes are connected with RF cables. The transmitter was fixed, and 29 different receivers were used in the experiment. Standard attenuators were introduced between the two devices, in addition to the standard cable, thereby ensuring an identical (deterministic) loss in the experiment with every receiver. For each attenuation, and for each receiver, 1500 sequence numbered packets with an application payload of 127 bytes were sent from the transmitter node. At each receiver node, for each attenuation level, the RSSI on each received packet and the overall packet error rate (PER) were recorded.
